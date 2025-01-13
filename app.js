@@ -10,7 +10,7 @@ dotenv.config();
 const bookRoutes = require('./routes/book.route');
 app.use('/api', bookRoutes);
 
-const PORT = process.env.PORT || 3006;
+const PORT = process.env.PORT || 3002;
 
 app.listen(PORT, async () => {
     // Nos conectamos a la base de datos de MongoDB
